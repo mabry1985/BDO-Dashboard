@@ -1,0 +1,424 @@
+{
+  "items": [
+    {
+      "name": "Mysterious Rock",
+      "img": "t5_mystRock",
+      "count": "0"
+      
+    },
+    {
+      "name": "Luxury Patterned Fabric",
+      "img": "t5_luxuryFabric",
+      "count": "0"
+      
+    },
+    {
+      "name": "Elixir of Youth",
+      "img": "t5_elixir",
+      "count": "0"
+      
+    },
+    {
+      "name": "Portrait of the Ancient",
+      "img": "t5_portrait",
+      "count": "0"
+      
+    },
+    {
+      "name": "102 Year Old Golden Herb",
+      "img": "t5_goldenHerb",
+      "count": "0"
+      
+    },
+    {
+      "name": "Golden Fish Scale",
+      "img": "t5_fishScale",
+      "count": "0"
+      
+    },
+    {
+      "name": "Taxidermied White Caterpillar",
+      "img": "t5_caterpillar",
+      "count": "0"
+      
+    },
+    {
+      "name": "Faded Gold Dragon Figurine",
+      "img": "t5_fadedDragon",
+      "count": "0"
+      
+    },
+    {
+      "name": "Supreme Gold CandleStick",
+      "img": "t5_candleStick",
+      "count": "0"
+      
+    },
+    {
+      "name": "Statue's Tear",
+      "img": "t5_tear",
+      "count": "0"
+      
+    },
+    {
+      "name": "Taxidermied Morpho Butterfly",
+      "img": "t5_butterfly",
+      "count": "0"
+      
+    },
+    {
+      "name": "Azure Quartz",
+      "img": "t5_azureQuartz",
+      "count": "0"
+      
+    },
+    {
+      "name": "37 Year Old Herbal Wine",
+      "img": "t5_herbalWine",
+      "count": "0"
+      
+    },
+    {
+      "name": "Octagonal Box",
+      "img": "t5_caterpillar",
+      "count": "0"
+      
+    },
+    {
+      "name": "Pirates Key",
+      "img": "t4_key",
+      "count": "0"
+      
+    },
+    {
+      "name": "Bronze Candlestick",
+      "img": "t4_candlestick",
+      "count": "0"
+      
+    },
+    {
+      "name": "Headless Dragon Figurine",
+      "img": "t4_headlessDragon",
+      "count": "0"
+      
+    },
+    {
+      "name": "Panacea",
+      "img": "t4_panacea",
+      "count": "0"
+      
+    },
+    {
+      "name": "Seashell Deco",
+      "img": "t4_seashell",
+      "count": "0"
+      
+    },
+    {
+      "name": "Old Chest With Gold Coins",
+      "img": "t4_oldChest",
+      "count": "0"
+      
+    },
+    {
+      "name": "Boatman's Manual",
+      "img": "t4_boatManual",
+      "count": "0"
+      
+    },
+    {
+      "name": "Green Salt Lump",
+      "img": "t4_greenSalt",
+      "count": "0"
+      
+    },
+    {
+      "name": "Solidified Lava",
+      "img": "t4_lava",
+      "count": "0"
+      
+    },
+    {
+      "name": "Marine Knights' Spear",
+      "img": "t4_marineSpear",
+      "count": "0"
+      
+    },
+    {
+      "name": "Amethyst Fragment",
+      "img": "t4_amethyst",
+      "count": "0"
+      
+    },
+    {
+      "name": "Opulent Thread Spool",
+      "img": "t4_opulentThread",
+      "count": "0"
+      
+    },
+    {
+      "name": "Stolen Pirate Dagger",
+      "img": "t4_pirateDagger",
+      "count": "0"
+      
+    },
+    {
+      "name": "Marine Knights' Helm",
+      "img": "t4_marineHelm",
+      "count": "0"
+      
+    },
+    {
+      "name": "Blue Candle Bundle",
+      "img": "t3_blueCandle",
+      "count": "0"
+      
+    },
+    {
+      "name": "Ancient Orders",
+      "img": "t3_ancientOrders",
+      "count": "0"
+      
+    },
+    {
+      "name": "Lopters Fishnet",
+      "img": "t3_lopterNets",
+      "count": "0"
+      
+    },
+    {
+      "name": "Rare Herb Pile",
+      "img": "t3_herbPile",
+      "count": "0"
+      
+    },
+    {
+      "name": "Skull Symbol Carpet",
+      "img": "t3_skullCarpet",
+      "count": "0"
+      
+    },
+    {
+      "name": "Weasel Leather Coat",
+      "img": "t3_weaselCoat",
+      "count": "0"
+      
+    },
+    {
+      "name": "Gooey Monster Blood",
+      "img": "t3_gooeyBlood",
+      "count": "0"
+      
+    },
+    {
+      "name": "Round Knife",
+      "img": "t3_roundKnife",
+      "count": "0"
+      
+    },
+    {
+      "name": "Skull Decorated Teacup",
+      "img": "t3_teacup",
+      "count": "0"
+      
+    },
+    {
+      "name": "Stalacite Fragment",
+      "img": "t3_stalacite",
+      "count": "0"
+      
+    },
+    {
+      "name": "Scout Binoculars",
+      "img": "t3_binoculars",
+      "count": "0"
+      
+    },
+    {
+      "name": "Pirate's Supply Box",
+      "img": "t3_supplyBox",
+      "count": "0"
+      
+    },
+    {
+      "name": "Torn Pirate Treasure Map",
+      "img": "t3_tornMap",
+      "count": "0"
+      
+    },
+    {
+      "name": "Old Hourglass",
+      "img": "t3_hourGlass",
+      "count": "0"
+      
+    },
+    {
+      "name": "Urchin Spine",
+      "img": "t2_urchinSpine",
+      "count": "0"
+      
+    },
+    {
+      "name": "Pirate Gold Coin",
+      "img": "t2_pirateCoin",
+      "count": "0"
+      
+    },
+    {
+      "name": "Monster Tentacle",
+      "img": "t2_tentacle",
+      "count": "0"
+      
+    },
+    {
+      "name": "Sea Survival Kit",
+      "img": "t2_survivalKit",
+      "count": "0"
+      
+    },
+    {
+      "name": "Balanced Stone Pagoda",
+      "img": "t2_balancedStones",
+      "count": "0"
+      
+    },
+    {
+      "name": "Narvo Sea Cucumber",
+      "img": "t2_narvo",
+      "count": "0"
+      
+    },
+    {
+      "name": "Big Stone Slab",
+      "img": "t2_stone",
+      "count": "0"
+      
+    },
+    {
+      "name": "Supreme Oyster Box",
+      "img": "t2_oyster",
+      "count": "0"
+      
+    },
+    {
+      "name": "Conch Shell Ornament",
+      "img": "t2_conch",
+      "count": "0"
+      
+    },
+    {
+      "name": "Filtered Drinking Water",
+      "img": "t2_water",
+      "count": "0"
+      
+    },
+    {
+      "name": "Opulent Marble",
+      "img": "t2_opulent",
+      "count": "0"
+      
+    },
+    {
+      "name": "Pirate Ship Mast",
+      "img": "t2_shipMast",
+      "count": "0"
+      
+    },
+    {
+      "name": "Cron Castle Gold Coin",
+      "img": "t2_cronCoin",
+      "count": "0"
+      
+    },
+    {
+      "name": "Islanders' Lunchbox",
+      "img": "t2_lunchbox",
+      "count": "0"
+      
+    },
+    {
+      "name": "Pirate's Gunpowder",
+      "img": "t1_gunpowder",
+      "count": "0"
+      
+    },
+    {
+      "name": "Fertile Soil",
+      "img": "t1_soil",
+      "count": "0"
+      
+    },
+    {
+      "name": "Rakeflower Seed Pouch",
+      "img": "t1_rakeflowerSeed",
+      "count": "0"
+      
+    },
+    {
+      "name": "Roa Flower Seed Pouch",
+      "img": "t1_roaFlowerSeed",
+      "count": "0"
+      
+    },
+    {
+      "name": "Golden Sand",
+      "img": "t1_goldSand",
+      "count": "0"
+      
+    },
+    {
+      "name": "Cherry Tree Seed Pouch",
+      "img": "t1_cherryTree",
+      "count": "0"
+      
+    },
+    {
+      "name": "Unidentified Ancient Mural",
+      "img": "t1_ancientMural",
+      "count": "0"
+      
+    },
+    {
+      "name": "Ancient Urn Piece",
+      "img": "t1_urn",
+      "count": "0"
+      
+    },
+    {
+      "name": "Chewy Raw Gizzard",
+      "img": "t1_gizzard",
+      "count": "0"
+      
+    },
+    {
+      "name": "Raft Toy",
+      "img": "t1_raft",
+      "count": "0"
+      
+    },
+    {
+      "name": "Stained Seagull Figurine",
+      "img": "t1_seagull",
+      "count": "0"
+      
+    },
+    {
+      "name": "Naval Ration",
+      "img": "t1_navalRation",
+      "count": "0"
+      
+    },
+    {
+      "name": "Giant Fish Bone",
+      "img": "t1_fishBone",
+      "count": "0"
+      
+    },
+    {
+      "name": "Dried Blue Rose",
+      "img": "t1_blueRose",
+      "count": "0"
+      
+    }
+  ]
+}
