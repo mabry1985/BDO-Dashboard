@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { createGlobalStyle } from "styled-components";
-import { BarterItem } from './types';
+import { Storage } from './types';
 
 import barterItemData from './barterItems.json';
 
@@ -10,8 +10,8 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-type AppState = {
-  barterItems: BarterItem[];
+interface AppState {
+  storage: Storage;
 }
 
 class App extends Component<{}, AppState> {
@@ -19,16 +19,15 @@ class App extends Component<{}, AppState> {
     super(props)
 
     this.state = {
-      barterItems: [], 
+      storage: {
+        ["Velia", ]
+      }
+       
     }
   }
 
   componentDidMount = () => {
-    const barterItemsCopy: BarterItem[] = [];
-   // barterItemData.items.map(barterItem => console.log(barterItem));
-    barterItemData.items.map(barterItem => barterItemsCopy.push(barterItem));
-    this.setState({ barterItems: barterItemsCopy }, 
-      () => console.log(this.state.barterItems))
+
   }
 
   render() {
