@@ -1,16 +1,17 @@
 import React from "react";
+import InventorySlot from "./InventorySlot";
+
 import { BarterItem } from "../types";
-import  InventorySlot from "./InventorySlot"
+
 
 interface InventoryProps {
   barterItems: BarterItem[];
-  count: number;
 }
 
 export const Inventory = (props: InventoryProps) => {
   return (
     <div className="card-list">
-
+      {props.barterItems && props.barterItems.map(item => <InventorySlot count={item.count} tier={item.tier} img={item.img} imgAlt={item.name} />)}
     </div>
   );
 };
