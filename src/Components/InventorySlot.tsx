@@ -1,6 +1,5 @@
 import React from "react";
 import { BarterItem } from "../types";
-
 interface InventorySlotProps {
   barterItem: BarterItem;
   currentCity: string;
@@ -21,10 +20,11 @@ const InventorySlot = ({
   barterItem,
   currentCity,
 }: InventorySlotProps) => {
+  console.log(img)
   return (
     <div>
       <button onClick={() => onUpClick(barterItem, currentCity)}>up</button>
-      <img src={img} alt={imgAlt} />
+      <img src={require(`../Images/${img}.png`)} alt={imgAlt} />
       <h5>{count}</h5>
       <button onClick={() => onDownClick(barterItem, currentCity)}>down</button>
     </div>
