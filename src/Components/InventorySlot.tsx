@@ -1,5 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { BarterItem } from "../types";
+import {
+  InventorySlotLayout,
+  ButtonLayout,
+  ItemImage,
+  Count,
+  ButtonContainer,
+} from "./InventorySlotStyles";
+
 interface InventorySlotProps {
   barterItem: BarterItem;
   currentCity: string;
@@ -20,14 +28,32 @@ const InventorySlot = ({
   barterItem,
   currentCity,
 }: InventorySlotProps) => {
-  console.log(img)
+  const [isShown, showButtons] = useState(false);
+
   return (
-    <div>
-      <button onClick={() => onUpClick(barterItem, currentCity)}>up</button>
-      <img src={require(`../Images/${img}.png`)} alt={imgAlt} />
-      <h5>{count}</h5>
-      <button onClick={() => onDownClick(barterItem, currentCity)}>down</button>
-    </div>
+    <InventorySlotLayout
+      onMouseEnter={() => showButtons(true)}
+      onMouseLeave={() => showButtons(false)}
+    >
+      <ItemImage src={require(`../Images/${img}.png`)} alt={imgAlt} />
+      <ButtonLayout>
+        <ButtonContainer>
+          {isShown && (
+            <button onClick={() => onDownClick(barterItem, currentCity)}>
+              -
+            </button>
+          )}
+        </ButtonContainer>
+        <Count>{count}</Count>
+        <ButtonContainer>
+          {isShown && (
+            <button onClick={() => onUpClick(barterItem, currentCity)}>
+              +
+            </button>
+          )}
+        </ButtonContainer>
+      </ButtonLayout>
+    </InventorySlotLayout>
   );
 };
 

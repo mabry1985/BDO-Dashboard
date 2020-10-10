@@ -1,7 +1,14 @@
 import React from "react";
 import InventorySlot from "./InventorySlot";
-
+import styled from "styled-components";
 import { BarterItem, Storage } from "../types";
+
+export const Grid = styled.div`
+  width: 475px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+`;
 
 interface InventoryProps {
   barterItems: BarterItem[];
@@ -12,8 +19,9 @@ interface InventoryProps {
 }
 
 export const Inventory = (props: InventoryProps) => {
+
   return (
-    <div className="card-list">
+    <Grid>
       {props.barterItems &&
         props.barterItems.map((item, index) => (
           <InventorySlot
@@ -28,7 +36,7 @@ export const Inventory = (props: InventoryProps) => {
             onDownClick={props.onDownClick}
           />
         ))}
-    </div>
+    </Grid>
   );
 };
 
